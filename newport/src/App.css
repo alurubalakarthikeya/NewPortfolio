@@ -18,3 +18,43 @@
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
+.home {
+  text-align: center;
+  background: linear-gradient(135deg, #3ab7da, rgb(44,115,210));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Poppins", sans-serif;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.project-card {
+  padding: 20px;
+  border-radius: 16px;
+  background: rgba(44, 115, 210, 0.08);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: white;
+}
+
+.intro{
+  background-color: rgba(44, 115, 210, 0.08);
+  border: 1px solid rgba(44, 115, 210, 0.2);
+  border-radius: 16px;
+  padding: 20px;
+}

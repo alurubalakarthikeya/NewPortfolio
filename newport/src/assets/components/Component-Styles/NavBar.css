@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
 .navbar {
     display: flex;
-    width: 94%;
+    width: 95%;
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(80deg, rgba(47, 205, 202, 0.2), rgba(47, 205, 139, 0.2));
+    background: linear-gradient(80deg, rgba(44,115,210, 0.2), rgba(47, 118, 205, 0.2));
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 24px rgba(46, 225, 198, 0.2);
+    border: 1.3px solid rgba(94, 156, 237, 0.3);
+    box-shadow: 0 4px 24px rgba(46, 58, 225, 0.2);
     border-radius: 40px;
     position: fixed;
     top: 7%;
@@ -26,13 +26,13 @@
   }
 
   .logo-img {
-    height: 35px;
+    height: 22px;
   }
 
   .logo-text {
     font-size: 2.7vh;
     font-weight: 550;
-    background: linear-gradient(135deg, #3AB8DA, #3ada7d);
+    background: linear-gradient(135deg, #3ab7daa4, rgba(44,115,210, 0.5));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -48,7 +48,7 @@
     margin-right: 17px;
     position: relative;
     z-index: 10;
-    background: rgba(22, 247, 206, 0.05);
+    background: rgba(22, 135, 247, 0.05);
     border: none;
     border-radius: 10px 30px 30px 10px;
     padding: 7px 10px;
@@ -59,24 +59,24 @@
   }
   
   .nav-item {
+    font-family: 'Tiktok Sans', sans-serif;
     display: flex;
+    font-weight: 500;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(135deg, #3AB8DA, #3ada7d);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: rgba(44, 133, 210, 0.6);
     font-size: 15px;
     cursor: pointer;
     padding: 0px 10px;
-    transition: background 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   
   .nav-item:hover {
-    background: linear-gradient(135deg, #00ffb3, #3AB8DA);
+    background: linear-gradient(135deg, #00b3ffab, rgba(44,115,210, 0.6));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    transform: translate(0, -4px);
   }
   
   .nav-item span {
@@ -94,7 +94,7 @@ display: none;
     right: -130%;
     width: 100%;
     height: 100vh;
-    background: rgba(47, 205, 139, 0.9);
+    background: rgba(47, 171, 205, 0.9);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     flex-direction: column;
@@ -112,7 +112,7 @@ display: none;
   .menu-bar {
     display: block;
     font-size: 2vh;
-    color: #3adaa5;
+    color: #3a87dabc;
     margin-right: 20px;
   }
 

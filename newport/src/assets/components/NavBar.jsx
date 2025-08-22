@@ -9,14 +9,13 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src="/src/assets/imgs/logo.png" alt="Logo" className="logo-img" />
+        <img src="/src/assets/imgs/logo-2.png" alt="Logo" className="logo-img" />
         <span className="logo-text">Karthikeya.</span>
       </div>
 
       <div className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>
         <FontAwesomeIcon icon={isOpen ? faTimes : faBars} size="lg" className="menu-bar" />
       </div>
-
 
       <ul className={`nav-list ${isOpen ? "open" : ""}`}>
         <li className="nav-item"><span>Home</span></li>
