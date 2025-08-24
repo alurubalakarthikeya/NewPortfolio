@@ -45,7 +45,7 @@
 .logo-text {
     font-size: 2.7vh;
     font-weight: 550;
-    background: linear-gradient(135deg, #3ab7daa4, rgba(44,115,210, 0.5));
+    background: linear-gradient(135deg, #3ab7dad3, rgba(44, 116, 210, 0.763));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -170,7 +170,7 @@
 
     /* Logo when expanded */
     .navbar.expanded .logo {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         opacity: 1;
         margin-right: 150px;
     }
