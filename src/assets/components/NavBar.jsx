@@ -15,7 +15,7 @@ export default function Navbar() {
       {!isExpanded && (
         <>
           <div className="logo">
-            <img src="/src/assets/imgs/logo-2.png" alt="Logo" className="logo-img" />
+            <img src="https://raw.githubusercontent.com/alurubalakarthikeya/NewPortfolio/refs/heads/master/src/assets/imgs/logo-2.png" alt="Logo" className="logo-img" />
             <span className="logo-text">Karthikeya.</span>
           </div>
 
